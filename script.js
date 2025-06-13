@@ -1,31 +1,41 @@
-function analizarNumero(numero) {
+
+
+function par() {
+    const numero = document.getElementById('number').value;
+
     if (numero % 2 === 0) {
-      console.log(`${numero} es par.`);
+        alert(`${numero} es par`);
     } else {
-      console.log(`${numero} es impar.`);
+        alert(`${numero} es impar`);
     }
-  
+}
+function pos() {
+    const numero = document.getElementById('number').value;
+
     if (numero > 0) {
-      console.log(`${numero} es positivo.`);
+        alert(`${numero} es positivo`);
     } else if (numero < 0) {
-      console.log(`${numero} es negativo.`);
+        alert(`${numero} es negativo`);
     } else {
-      console.log(`El número es cero.`);
+        alert(`El número es cero`);
     }
-  
+}
+function m5() {
+    const numero = document.getElementById('number').value;
+
     if (numero % 5 === 0) {
-      console.log(`${numero} es múltiplo de 5.`);
+        alert(`${numero} es múltiplo de 5`);
     } else {
-      console.log(`${numero} no es múltiplo de 5.`);
+        alert(`${numero} no es múltiplo de 5`);
     }
-  
+}
+function d34() {
+    const numero = document.getElementById('number').value;
+
     if (numero % 3 === 0 && numero % 4 === 0) {
-      console.log(`${numero} es divisible entre 3 y 4 al mismo tiempo.`);
+        alert(`${numero} es divisible entre 3 y 4 `);
     } else {
-      console.log(`${numero} no es divisible entre 3 y 4 al mismo tiempo.`);
+        alert(`${numero} no es divisible entre 3 y 4 `);
     }
-  }
-  
-  // Ejemplo de uso:
-  analizarNumero(12);
-  
+}
+// Ejemplo de uso:
